@@ -86,7 +86,7 @@ Please enter 1-9:
    |   |   
 ```
 
-Remember that when you see a number in this sample output it represents user input. In this game, the first move was to position "1", the second move attempted to also move to position "1" but was denied because of validation. After the validation failure, the user entered "2", the board marked an "X" instead of an "O" in position "2", and the move was completed. The user then entered a "3" and the board was further updated. Subsequent turns would continue in a similar fashion until the enclosing loop(s) terminated.
+Remember that because of validation. After the validation failure, the user entered "2", the board marked an "X" instead of an "O" in position "2", and the move was completed. The user then entered a "3" and the board was further updated. Subsequent turns would continue in a similar fashion until the enclosing loop(s) terminated.
 
 **Note:** *Don't* just call the `#turn` method 9 times inside the `#play` method. Use the looping constructs we've learned in previous lessons!
 
